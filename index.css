@@ -1,0 +1,48 @@
+@font-face {
+    font-family: natoBold;
+    src: url(./fonts/Noto_Serif/NotoSerif-Bold.ttf);
+}
+@font-face {
+    font-family: natoBoldItalic;
+    src: url(./fonts/Noto_Serif/NotoSerif-BoldItalic.ttf);
+}
+@font-face {
+    font-family: natoBItalik;
+    src: url(./fonts/Noto_Serif/NotoSerif-Italic.ttf);
+}
+@font-face {
+    font-family: natoRegular;
+    src: url(./fonts/Noto_Serif/NotoSerif-Regular.ttf);
+}
+/* .carousel-item{
+  height:600px;
+  background-size: cover;
+} */
+
+.navbar-brand{
+    font-family: natoBold;
+}
+.navbar-nav{
+    font-family: natoRegular;
+}
+/* .bi-search{
+    color: white;
+} */
+
+.self_container{
+  /* background-color: gray; */
+  /* height: 300px; */
+}
+.Tranding_Heading{
+  font-family: natoRegular;
+}
+.like_heart:hover{
+  color: white;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        align-content: space-between;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+}
